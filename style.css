@@ -15,6 +15,7 @@ body {
   }
   .text {
     padding: 5px 15px 5px 5px;
+    margin-right: 10px;
   }
   .content::-webkit-scrollbar {
    visibility:hidden;
@@ -34,4 +35,16 @@ body {
   .content:hover::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0,0,0,.1); 
     border-radius: 10px;
+}
+.box {
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  background:rgba(0,159,37,.1);
+}
+#one {
+  position: relative;
+  position:sticky;
+  left: 2px;
+  top: 2px;
 }
